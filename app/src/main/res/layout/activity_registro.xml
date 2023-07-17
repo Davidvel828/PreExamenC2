@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empresas Industriales de México"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/texto"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/lblRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/texto"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNombreUsuario"
+            android:text="Nombre de usuario:"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombreUsuario"
+            android:inputType="text"
+            android:hint="Escriba su nombre"
+            android:layout_margin="5dp">
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo:"
+            android:id="@+id/lblCorreo"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCorreo"
+            android:inputType="textEmailAddress"
+            android:hint="Introduzca su correo"
+            android:layout_margin="5dp">
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"
+            android:id="@+id/lblContraseña"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContrasena"
+            android:inputType="textPassword"
+            android:hint="Introduzca su contraseña"
+            android:layout_margin="5dp">
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vuleva a introducir la contraseña:"
+            android:id="@+id/lblReContrasena"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtReContrasena"
+            android:inputType="textPassword"
+            android:hint="Introduzca su contraseña nuevamente"
+            android:layout_margin="5dp">
+
+        </EditText>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:layout_margin="5dp">
+
+            <TableRow>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ingresar"
+                    android:id="@+id/btnIngresar"
+                    android:layout_span="2"
+                    android:layout_margin="2dp">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrarse"
+                    android:id="@+id/btnRegistrarse"
+                    android:layout_span="2"
+                    android:layout_margin="2dp">
+
+                </Button>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
