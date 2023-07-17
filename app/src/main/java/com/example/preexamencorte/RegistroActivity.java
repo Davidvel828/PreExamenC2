@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import Modelo.UsuarioDb;
 
-public class RegistroActivity extends AppCompatActivity {
+public class RegistroActivity extends AppCompatActivity   {
 
     private EditText txtNombreUsuario, txtCorreo, txtContrasena, txtReContrasena;
     private Button btnRegistrar, btnIngresar;
