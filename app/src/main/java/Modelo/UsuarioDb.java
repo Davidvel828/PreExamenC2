@@ -11,7 +11,7 @@ import com.example.preexamencorte.Usuario;
 
 import java.util.ArrayList;
 
-public class UsuarioDb implements Persistencia, Proyeccion{
+public class UsuarioDb implements Persistencia, Proyeccion  {
 
     private Context context;
     private UsuarioDbHelper helper;
