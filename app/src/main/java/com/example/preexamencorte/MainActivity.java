@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import Modelo.UsuarioDb;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity   {
 
     private EditText txtCorreo, txtContrasena;
     private Usuario usuario;
