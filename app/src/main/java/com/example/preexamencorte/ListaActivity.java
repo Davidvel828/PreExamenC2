@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import Modelo.UsuarioDb;
 
-public class ListaActivity extends AppCompatActivity    {
+public class ListaActivity extends AppCompatActivity     {
 
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;

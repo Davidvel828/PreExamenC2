@@ -2,7 +2,7 @@ package com.example.preexamencorte;
 
 import java.io.Serializable;
 
-public class Usuario implements Serializable   {
+public class Usuario implements Serializable    {
     private int id;
     private String nombreUsuario;
     private String correo;
